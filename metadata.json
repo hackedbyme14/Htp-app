@@ -1,5 +1,7 @@
 {
   "name": "Productivity Hub",
   "description": "A modern web-based productivity and focus application featuring task planning, a Pomodoro timer, motivational content, and AI-powered suggestions.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [
+    "microphone"
+  ]
 }

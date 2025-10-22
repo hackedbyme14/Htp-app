@@ -217,12 +217,12 @@ const AppContent: React.FC = () => {
         <div className="container mx-auto p-4 pt-8">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="#home" element={<Home />} />
-            <Route path="#planner" element={<Planner />} />
-            <Route path="#focus" element={<FocusMode />} />
-            <Route path="#motivation" element={<Motivation />} />
-            <Route path="#dashboard" element={<Dashboard />} />
-            <Route path="#profile" element={<Profile />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/planner" element={<Planner />} />
+            <Route path="/focus" element={<FocusMode />} />
+            <Route path="/motivation" element={<Motivation />} />
+            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes>
         </div>
         <Navbar activeTab={activeTab} />
